@@ -181,4 +181,53 @@ ubuntu@balasenapathi:~$ python3 string-split.py
 Words: ['Python', 'is', 'awesome']
 ```
 
+### String Strip
 
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-strip.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "   Some spaces around   "
+stripped_text = text.strip()
+print("Stripped text:", stripped_text)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (string-strip.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-strip.py
+Stripped text: Some spaces around
+```
+
+### String Substring
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-substring.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "Python is awesome"
+substring = "is"
+if substring in text:
+    print(substring, "found in the text")
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (string-substring.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-substring.py
+is found in the text
+```
