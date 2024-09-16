@@ -79,14 +79,14 @@
 - Practice exercises and examples:
   - Example: Creating a aws script for deploying applications to remote servers.
 
-## 14.Github-JIRA intergration Project - (Project-4) - (Part-1)
+## 14.Github-JIRA integration Project - (Project-4) - (Part-1)
 - Introduction to RESTful APIs.
 - Making HTTP requests using Python.
 - Parsing JSON responses and error handling.
 - Practice exercises and examples:
   - Example: Write a Python API which listens on a github comment and creates a ticket in JIRA.
 
-## 15.Github-JIRA intergration Project - (Project-4) - (Part-2)
+## 15.Github-JIRA integration Project - (Project-4) - (Part-2)
 - Introduction to Flask.
 - Write your first API in python.
 - How to handle API calls and deploy your API to a server.
