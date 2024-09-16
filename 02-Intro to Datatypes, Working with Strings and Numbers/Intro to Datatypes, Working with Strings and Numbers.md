@@ -53,7 +53,7 @@ in Python:
 - Escape sequences: Special characters like newline (\n), tab (\t), and others are represented using escape sequences.
 - String methods: Python provides many built-in methods for string manipulation, such as `split()`, `join()`, and `startswith()`.
 
-### String concatenation
+### **String concatenation**
 
 #### 1.Create a Python Script using nano editor
 ```
