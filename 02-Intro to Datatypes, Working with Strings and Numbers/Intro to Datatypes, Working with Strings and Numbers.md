@@ -326,3 +326,169 @@ Integer Division: 2
 Modulus (Remainder): 0
 Absolute Value: 7
 ```
+
+## 4.Regex
+
+**Regular Expressions for Text Processing:**
+
+- Regular expressions (regex or regexp) are a powerful tool for pattern matching and text processing.
+- The `re` module in Python is used for working with regular expressions.
+- Common metacharacters: `.` (any character), `*` (zero or more), `+` (one or more), `?` (zero or one), `[]` (character class), `|` (OR), `^` (start of a line), `$` (end of a line), etc.
+- Examples of regex usage: matching emails, phone numbers, or extracting data from text.
+- `re` module functions include `re.match()`, `re.search()`, `re.findall()`, and `re.sub()` for pattern matching and replacement.
+
+### 1.Regex Findall
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano regex-findall.py
+```
+#### 2.In the editor, type the following Python code
+```
+import re
+
+text = "The quick brown fox"
+pattern = r"brown"
+
+search = re.search(pattern, text)
+if search:
+    print("Pattern found:", search.group())
+else:
+    print("Pattern not found")
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (regex-findall.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 regex-findall.py
+Pattern found: brown
+```
+
+### 2.Regex Match
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano regex-match.py
+```
+#### 2.In the editor, type the following Python code
+```
+import re
+
+text = "The quick brown fox"
+pattern = r"quick"
+
+match = re.match(pattern, text)
+if match:
+    print("Match found:", match.group())
+else:
+    print("No match")
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (regex-match.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 regex-match.py
+No match
+```
+
+### 3.Regex Replace
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano regex-replace.py
+```
+#### 2.In the editor, type the following Python code
+```
+import re
+
+text = "The quick brown fox jumps over the lazy brown dog"
+pattern = r"brown"
+
+replacement = "red"
+
+new_text = re.sub(pattern, replacement, text)
+print("Modified text:", new_text)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (regex-replace.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 regex-replace.py
+Modified text: The quick red fox jumps over the lazy red dog
+```
+
+### 4.Regex Search
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano regex-search.py
+```
+#### 2.In the editor, type the following Python code
+```
+import re
+
+text = "The quick brown fox"
+pattern = r"brown"
+
+search = re.search(pattern, text)
+if search:
+    print("Pattern found:", search.group())
+else:
+    print("Pattern not found")
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (regex-search.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 regex-search.py
+Pattern found: brown
+```
+
+### 5.Regex Split
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano regex-split.py
+```
+#### 2.In the editor, type the following Python code
+```
+import re
+
+text = "apple,banana,orange,grape"
+pattern = r","
+
+split_result = re.split(pattern, text)
+print("Split result:", split_result)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (regex-split.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 regex-split.py
+Split result: ['apple', 'banana', 'orange', 'grape']
+```
