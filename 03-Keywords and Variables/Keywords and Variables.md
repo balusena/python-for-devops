@@ -68,7 +68,7 @@ of code.
 26. **nonlocal**: It is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing 
 (but non-global) scope.
 
-## 2.Understanding Variables in Python
+## 2.Variables in Python
 
 In Python, a variable is a named storage location used to store data. Variables are essential for programming as they 
 allow us to work with data, manipulate it, and make our code more flexible and reusable. 
@@ -139,7 +139,7 @@ a = 10  # Less clear
 num_of_students = 10  # More descriptive
 ```
 
-## 3.Practice Exercises and Examples:
+## 3.Practice Exercises and Examples
 
 ### Example: Using Variables to Store and Manipulate Configuration Data in a DevOps Context
 
