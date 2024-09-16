@@ -231,3 +231,98 @@ if substring in text:
 ubuntu@balasenapathi:~$ python3 string-substring.py
 is found in the text
 ```
+
+## 3.Numeric Data Type
+
+**Numeric Data Types in Python (int, float):**
+
+- Python supports two primary numeric data types: `int` for integers and `float` for floating-point numbers.
+- Integers are whole numbers, and floats can represent both whole and fractional numbers.
+- You can perform arithmetic operations on these types, including addition, subtraction, multiplication, division, and more.
+- Be aware of potential issues with floating-point precision, which can lead to small inaccuracies in calculations.
+- Python also provides built-in functions for mathematical operations, such as `abs()`, `round()`, and `math` module for advanced functions.
+
+### 1.Numeric Float
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano float.py
+```
+#### 2.In the editor, type the following Python code
+```
+# Float variables
+num1 = 5.0
+num2 = 2.5
+
+# Basic Arithmetic
+result1 = num1 + num2
+print("Addition:", result1)
+
+result2 = num1 - num2
+print("Subtraction:", result2)
+
+result3 = num1 * num2
+print("Multiplication:", result3)
+
+result4 = num1 / num2
+print("Division:", result4)
+
+# Rounding
+result5 = round(3.14159265359, 2)  # Rounds to 2 decimal places
+print("Rounded:", result5)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (float.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 float.py
+Addition: 7.5
+Subtraction: 2.5
+Multiplication: 12.5
+Division: 2.0
+Rounded: 3.14
+```
+
+### 2.Numeric Int
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano int.py
+```
+#### 2.In the editor, type the following Python code
+```
+# Integer variables
+num1 = 10
+num2 = 5
+
+# Integer Division
+result1 = num1 // num2
+print("Integer Division:", result1)
+
+# Modulus (Remainder)
+result2 = num1 % num2
+print("Modulus (Remainder):", result2)
+
+# Absolute Value
+result3 = abs(-7)
+print("Absolute Value:", result3)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (int.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 int.py
+Integer Division: 2
+Modulus (Remainder): 0
+Absolute Value: 7
+```
