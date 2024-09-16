@@ -70,7 +70,7 @@ print(result)
 **After typing the code, save the file:**
 - Press Ctrl + X to exit.
 - Press Y to confirm saving changes.
-- Press Enter to confirm the file name (hello.py).
+- Press Enter to confirm the file name (string-concat.py).
 
 #### 4.Run the Python Script
 - To run your Python script, use the following command in the terminal:
@@ -94,7 +94,7 @@ print("Length of the string:", length)
 **After typing the code, save the file:**
 - Press Ctrl + X to exit.
 - Press Y to confirm saving changes.
-- Press Enter to confirm the file name (hello.py).
+- Press Enter to confirm the file name (string-len.py).
 
 #### 4.Run the Python Script
 - To run your Python script, use the following command in the terminal:
@@ -104,7 +104,7 @@ Length of the string: 16
 ```
 
 ### String Uppercase Lowercase
-
+   
 #### 1.Create a Python Script using nano editor
 ```
 ubuntu@balasenapathi:~$ nano string-case.py
@@ -116,13 +116,13 @@ uppercase = text.upper()
 lowercase = text.lower()
 print("Uppercase:", uppercase)
 print("Lowercase:", lowercase)
-```
+ ```
 #### 3.Save and Exit
 **After typing the code, save the file:**
 - Press Ctrl + X to exit.
 - Press Y to confirm saving changes.
-- Press Enter to confirm the file name (hello.py).
-
+- Press Enter to confirm the file name (string-case.py).
+   
 #### 4.Run the Python Script
 - To run your Python script, use the following command in the terminal:
 ```
@@ -130,3 +130,55 @@ ubuntu@balasenapathi:~$ python3 string-case.py
 Uppercase: PYTHON IS AWESOME
 Lowercase: python is awesome
 ```
+
+### String Replace
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-replace.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "Python is awesome"
+new_text = text.replace("awesome", "great")
+print("Modified text:", new_text)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (string-replace.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-replace.py
+Modified text: Python is great
+```
+
+### String Split
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-split.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "Python is awesome"
+words = text.split()
+print("Words:", words)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (string-split.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-split.py
+Words: ['Python', 'is', 'awesome']
+```
+
+
