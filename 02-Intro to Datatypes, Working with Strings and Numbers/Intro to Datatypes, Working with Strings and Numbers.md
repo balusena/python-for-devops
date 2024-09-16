@@ -53,7 +53,7 @@ in Python:
 - Escape sequences: Special characters like newline (\n), tab (\t), and others are represented using escape sequences.
 - String methods: Python provides many built-in methods for string manipulation, such as `split()`, `join()`, and `startswith()`.
 
-### 1.String concatenation
+### 1.String Concatenation
 
 #### 1.Create a Python Script using nano editor
 ```
@@ -78,7 +78,7 @@ print(result)
 ubuntu@balasenapathi:~$ python3 string-concat.py
 Hello, World!
 ```
-### String Length
+### 2.String Length
 
 #### 1.Create a Python Script using nano editor
 ```
@@ -103,7 +103,7 @@ ubuntu@balasenapathi:~$ python3 string-len.py
 Length of the string: 16
 ```
 
-### String Uppercase Lowercase
+### 3.String Uppercase Lowercase
    
 #### 1.Create a Python Script using nano editor
 ```
@@ -131,7 +131,7 @@ Uppercase: PYTHON IS AWESOME
 Lowercase: python is awesome
 ```
 
-### String Replace
+### 4.String Replace
 
 #### 1.Create a Python Script using nano editor
 ```
@@ -156,7 +156,7 @@ ubuntu@balasenapathi:~$ python3 string-replace.py
 Modified text: Python is great
 ```
 
-### String Split
+### 5.String Split
 
 #### 1.Create a Python Script using nano editor
 ```
@@ -181,7 +181,7 @@ ubuntu@balasenapathi:~$ python3 string-split.py
 Words: ['Python', 'is', 'awesome']
 ```
 
-### String Strip
+### 6.String Strip
 
 #### 1.Create a Python Script using nano editor
 ```
@@ -206,7 +206,7 @@ ubuntu@balasenapathi:~$ python3 string-strip.py
 Stripped text: Some spaces around
 ```
 
-### String Substring
+### 7.String Substring
 
 #### 1.Create a Python Script using nano editor
 ```
