@@ -78,7 +78,7 @@ print(result)
 ubuntu@balasenapathi:~$ python3 string-concat.py
 Hello, World!
 ```
-### To find the length of String
+### String Length
 
 #### 1.Create a Python Script using nano editor
 ```
