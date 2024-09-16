@@ -1,5 +1,6 @@
 # Intro to Data Types, Working with Strings and Numbers
 
+## 1.Data Types
 In programming, a data type is a classification or categorization that specifies which type of value a variable can hold.
 Data types are essential because they determine how data is stored in memory and what operations can be performed on that
 data. Python, like many programming languages, supports several built-in data types. Here are some of the common data types
@@ -34,3 +35,98 @@ in Python:
 
 8. **Custom Data Types:**
    - You can also define custom data types using classes and objects.
+
+## 2.Strings
+
+**1. String Data Type in Python:**
+
+- In Python, a string is a sequence of characters, enclosed within single (' '), double (" "), or triple (''' ''' or """ """) quotes.
+- Strings are immutable, meaning you cannot change the characters within a string directly. Instead, you create new strings.
+- You can access individual characters in a string using indexing, e.g., `my_string[0]` will give you the first character.
+- Strings support various built-in methods, such as `len()`, `upper()`, `lower()`, `strip()`, `replace()`, and more, for manipulation.
+
+**2. String Manipulation and Formatting:**
+
+- Concatenation: You can combine strings using the `+` operator.
+- Substrings: Use slicing to extract portions of a string, e.g., `my_string[2:5]` will extract characters from the 2nd to the 4th position.
+- String interpolation: Python supports various ways to format strings, including f-strings (f"...{variable}..."), %-formatting ("%s %d" % ("string", 42)), and `str.format()`.
+- Escape sequences: Special characters like newline (\n), tab (\t), and others are represented using escape sequences.
+- String methods: Python provides many built-in methods for string manipulation, such as `split()`, `join()`, and `startswith()`.
+
+### String concatenation
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-concat.py
+```
+#### 2.In the editor, type the following Python code
+```
+str1 = "Hello"
+str2 = "World"
+result = str1 + " " + str2
+print(result)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (hello.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-concat.py
+Hello, World!
+```
+### To find the length of String
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-len.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "Python is awesome"
+length = len(text)
+print("Length of the string:", length)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (hello.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-len.py
+Length of the string: 16
+```
+
+### String Uppercase Lowercase
+
+#### 1.Create a Python Script using nano editor
+```
+ubuntu@balasenapathi:~$ nano string-case.py
+```
+#### 2.In the editor, type the following Python code
+```
+text = "Python is awesome"
+uppercase = text.upper()
+lowercase = text.lower()
+print("Uppercase:", uppercase)
+print("Lowercase:", lowercase)
+```
+#### 3.Save and Exit
+**After typing the code, save the file:**
+- Press Ctrl + X to exit.
+- Press Y to confirm saving changes.
+- Press Enter to confirm the file name (hello.py).
+
+#### 4.Run the Python Script
+- To run your Python script, use the following command in the terminal:
+```
+ubuntu@balasenapathi:~$ python3 string-case.py
+Uppercase: PYTHON IS AWESOME
+Lowercase: python is awesome
+```
