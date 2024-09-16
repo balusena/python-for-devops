@@ -89,9 +89,9 @@ print(f"Hello, {args.name}. You are {args.age} years old.")
 python3 script.py --name John --age 30
 Hello, John. You are 30 years old.
 ```
-- Common Argument Types:
-- **--flag or -f: Options with values (e.g., --name John)**
-- **store_true:Boolean flag (e.g., --verbose)**
+- **Common Argument Types**
+- --flag or -f: Options with values (e.g., --name John)
+- store_true:Boolean flag (e.g., --verbose)
 
 ## 5.Practice Exercises and Examples
 
