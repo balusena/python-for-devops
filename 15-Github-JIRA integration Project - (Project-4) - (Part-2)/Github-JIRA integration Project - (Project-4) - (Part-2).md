@@ -208,7 +208,7 @@ app = Flask(__name__)
 @app.route('/createJira', methods=['POST'])
 def createJira():
 
-    url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
+    url = "https://balasenapathi.atlassian.net/rest/api/3/issue"
 
     API_TOKEN=""
 
