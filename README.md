@@ -45,6 +45,8 @@
 ## 8.Working with Lists (Part 1)
 - Understanding lists and list data structure.
 - List manipulation and common list operations.
+- Understanding tuples and tuple data structure.
+- Keynotes about lists and tuples
 - Practice exercises and examples:
   - Example: Writing a script to manage a list of user accounts in a DevOps environment.
   
@@ -92,3 +94,4 @@
 - How to handle API calls and deploy your API to a server.
 - Practice exercises and examples:
   - Example: Write a Python API which listens on a github comment and creates a ticket in JIRA.
+  
