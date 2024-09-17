@@ -178,5 +178,27 @@ result = not x
 # result will be False
 ```
 
+## 7.Membership Operations in Python
+Membership operators in Python are used to check whether a value is present in a sequence or collection, such as a list,
+tuple, or string. The membership operators are "in" and "not in."
+
+### 1.List of Membership Operators
+1. **in:** Returns `True` if the left operand is found in the sequence on the right.
+2. **not in:** Returns `True` if the left operand is not found in the sequence on the right.
+
+### 2.Examples
+
+#### 1.in Operator
+```
+fruits = ["apple", "banana", "cherry"]
+result = "banana" in fruits
+# result will be True
+```
+#### 2.not in Operator
+```
+colors = ["red", "green", "blue"]
+result = "yellow" not in colors
+# result will be True
+```
 
 
