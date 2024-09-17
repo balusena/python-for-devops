@@ -88,7 +88,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://veeramallaabhishek.atlassian.net/rest/api/3/project"
+url = "https://balasenapathi.atlassian.net/rest/api/3/project"
 
 API_TOKEN=""
 
@@ -125,7 +125,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
+url = "https://balasenapathi.atlassian.net/rest/api/3/issue"
 
 API_TOKEN = ""
 
