@@ -146,4 +146,30 @@ result = a is not b
 # result will be True
 ```
 
+## 6.Logical Operations in Python
+Logical operators in Python are used to manipulate and combine Boolean values. These operators allow you to perform 
+logical operations such as AND, OR, and NOT.
+
+### 1.List of Logical Operators
+1. **AND (and):** Returns `True` if both operands are `True`.
+2. **OR (or):** Returns `True` if at least one of the operands is `True`.
+3. **NOT (not):** Returns the opposite Boolean value of the operand.
+
+### 1.Examples
+
+#### 1.AND Operator
+```
+x = True
+y = False
+result = x and y
+# result will be False
+```
+#### 2.OR Operator
+```
+a = True
+b = False
+result = a or b
+# result will be True
+```
+
 
