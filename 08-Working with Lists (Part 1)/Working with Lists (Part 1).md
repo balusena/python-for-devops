@@ -220,8 +220,9 @@ servers = ['web-server-01', 'db-server-01', 'app-server-01']
 servers.remove('db-server-01')
 ```
 
-# This Python script manages User Accounts in DevOps Environment
+## 7.Writing a script to manage a list of user accounts in a DevOps environment.
 ```
+# This Python script manages User Accounts in DevOps Environment
 import json
 import os
 
