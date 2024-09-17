@@ -171,5 +171,12 @@ b = False
 result = a or b
 # result will be True
 ```
+#### 3.NOT Operator
+```
+x = True
+result = not x
+# result will be False
+```
+
 
 
