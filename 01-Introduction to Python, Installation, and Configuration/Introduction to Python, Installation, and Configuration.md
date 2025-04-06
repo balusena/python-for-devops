@@ -57,9 +57,9 @@ ubuntu@balasenapathi:~$ sudo pip3 install virtualenv
 ```
 
 ## 3.Shell Scripting vs Python
-Certainly! The choice between using shell scripting and Python in DevOps depends on the specific task or problem you're 
-trying to solve. Both have their strengths and are suitable for different scenarios. Here are some guidelines to help you
-decide when to use each:
+Certainly! The choice between using shell scripting and Python in  depends on the specific task or problem you're 
+trying to solve. Both have their strengths and are suitable for different scenarios. Here are some guidelines to 
+help you decide when to use each:
 
 **Use Shell Scripting When:**
 
