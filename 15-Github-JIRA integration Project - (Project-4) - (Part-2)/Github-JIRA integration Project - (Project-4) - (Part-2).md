@@ -266,3 +266,4 @@ This code creates a Flask API that listens for POST requests at the /createJira 
 request to the JIRA API to create an issue in a JIRA project. The API uses the requests library to make a POST request 
 to JIRA, passing a JSON payload with details about the issue. The created issue's response is returned as JSON.
 
+
